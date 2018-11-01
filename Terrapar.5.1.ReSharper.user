@@ -1,0 +1,991 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:usuariosDAL.cs" caret="5634" fromTop="26" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:servicos.aspx.cs" caret="7915" fromTop="13" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:fechamento_servicosDAL.cs" caret="553" fromTop="21" />
+      <File id="A7EF8C65-1A0B-4EE4-943F-63D81812F8F7/f:debito_credito.cs" caret="61" fromTop="4" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:debitos_creditosDAL.cs" caret="3394" fromTop="28" />
+      <File id="A7EF8C65-1A0B-4EE4-943F-63D81812F8F7/f:fechamento_pao_acucar.cs" caret="61" fromTop="4" />
+      <File id="A7EF8C65-1A0B-4EE4-943F-63D81812F8F7/f:fechamento_viagens.cs" caret="198" fromTop="7" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:fechamentos_pao_acucarDAL.cs" caret="4579" fromTop="109" />
+      <File id="A7EF8C65-1A0B-4EE4-943F-63D81812F8F7/f:viagem_pao_acucar.cs" caret="459" fromTop="10" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:fechamento.aspx" caret="0" fromTop="0" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:fechamento_viagensDAL.cs" caret="550" fromTop="21" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:lojas_viagem_pao_acucarDAL.cs" caret="3477" fromTop="26" />
+      <File id="A7EF8C65-1A0B-4EE4-943F-63D81812F8F7/f:viagem_pedreira.cs" caret="1311" fromTop="33" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:folha-pagamento.aspx" caret="12858" fromTop="26" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:viagens_pedreiraDAL.cs" caret="7789" fromTop="26" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:fechamento.aspx.cs" caret="6235" fromTop="34" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:folha-pagamento.aspx.cs" caret="16719" fromTop="33" />
+      <File id="A7EF8C65-1A0B-4EE4-943F-63D81812F8F7/f:loja.cs" caret="232" fromTop="7" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:lojas.aspx" caret="3017" fromTop="26" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:usuarios.aspx" caret="1972" fromTop="42" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:Default.aspx.cs" caret="23747" fromTop="14" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:Default.aspx" caret="4347" fromTop="41" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:lojas.aspx.cs" caret="2267" fromTop="29" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:lojasDAL.cs" caret="2724" fromTop="14" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx.designer.cs" caret="8952" fromTop="27" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/d:Styles/f:Site.css" caret="8541" fromTop="36" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:Web.config" caret="637" fromTop="7" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx.cs" caret="22191" fromTop="31" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="2333" fromTop="26" />
+      <File id="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC/f:viagens_pao_acucarDAL.cs" caret="2374" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx.cs" caret="1702" fromTop="41" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx.cs" caret="1599" fromTop="39" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6702" fromTop="39" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="49" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="51" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="44" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="43" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="35" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="18" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="14" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="25" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6303" fromTop="16" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6345" fromTop="37" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6330" fromTop="32" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6303" fromTop="20" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6213" fromTop="14" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6152" fromTop="15" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="5888" fromTop="19" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="5669" fromTop="12" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6440" fromTop="40" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="6279" fromTop="35" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="3714" fromTop="5" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="4400" fromTop="13" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="5264" fromTop="24" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:Web.config" caret="2316" fromTop="46" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:Web.config" caret="637" fromTop="7" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="1786" fromTop="18" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="2095" fromTop="22" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="2897" fromTop="33" />
+      <File id="919A8D53-C002-418D-BACD-0A31B11202B8/f:viagens.aspx" caret="2333" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="IDictionary" priority="0" />
+      <Item value="prop" priority="7" />
+      <Item value="AppDomainManagerInitializationOptions`0" priority="0" />
+      <Item value="bool" priority="2" />
+      <Item value="string" priority="40" />
+      <Item value="int" priority="12" />
+      <Item value="decimal" priority="17" />
+      <Item value="DropDownList`0" priority="4" />
+      <Item value="ddlUsuarios" priority="16" />
+      <Item value="new" priority="73" />
+      <Item value="Terrapar" priority="0" />
+      <Item value="DAL" priority="0" />
+      <Item value="usuarioDAL`0" priority="3" />
+      <Item value="IDAL" priority="5" />
+      <Item value="usuario`0" priority="4" />
+      <Item value="d" priority="0" />
+      <Item value="dt" priority="17" />
+      <Item value="var" priority="82" />
+      <Item value="return" priority="14" />
+      <Item value="usuarios" priority="0" />
+      <Item value="T`0" priority="1" />
+      <Item value="Response" priority="9" />
+      <Item value="placa" priority="8" />
+      <Item value="senha" priority="1" />
+      <Item value="if" priority="33" />
+      <Item value="txtSenha" priority="0" />
+      <Item value="User" priority="0" />
+      <Item value="txtPlaca" priority="2" />
+      <Item value="Label`0" priority="2" />
+      <Item value="UserControl`0" priority="1" />
+      <Item value="System" priority="1" />
+      <Item value="Security" priority="0" />
+      <Item value="Principal" priority="0" />
+      <Item value="IPrincipal`0" priority="0" />
+      <Item value="else" priority="19" />
+      <Item value="JsonConverter`0" priority="0" />
+      <Item value="usuario" priority="22" />
+      <Item value="true" priority="14" />
+      <Item value="identity" priority="2" />
+      <Item value="CustomIdentity" priority="2" />
+      <Item value="FormsAuthenticationService`0" priority="0" />
+      <Item value="Convert`0" priority="28" />
+      <Item value="CustomIdentity`0" priority="0" />
+      <Item value="FormsAuthentication`0" priority="0" />
+      <Item value="FormsAuthenticationTicket" priority="0" />
+      <Item value="as" priority="0" />
+      <Item value="Session" priority="5" />
+      <Item value="try" priority="1" />
+      <Item value="nome" priority="2" />
+      <Item value="menu" priority="0" />
+      <Item value="MenuItem" priority="0" />
+      <Item value="Page" priority="1" />
+      <Item value="vwEstados" priority="3" />
+      <Item value="Request" priority="3" />
+      <Item value="idUsuario" priority="3" />
+      <Item value="null" priority="14" />
+      <Item value="OrderedEnumerableRowCollection" priority="1" />
+      <Item value="nomeMotorista" priority="2" />
+      <Item value="txtNomeMotorista" priority="2" />
+      <Item value="ddlTipos" priority="2" />
+      <Item value="DataTable`0" priority="4" />
+      <Item value="TemplateField`0" priority="2" />
+      <Item value="CheckBox`0" priority="3" />
+      <Item value="nuUsu" priority="3" />
+      <Item value="ClientScript" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="txtPlacaEdit" priority="2" />
+      <Item value="txtNomeMotoristaEdit" priority="2" />
+      <Item value="txtSenhaEdit" priority="2" />
+      <Item value="ddlTipoEdit" priority="1" />
+      <Item value="chkAdminEdit" priority="1" />
+      <Item value="protected" priority="9" />
+      <Item value="ret" priority="4" />
+      <Item value="txtNomeCaminhaoEdit" priority="1" />
+      <Item value="txtMetaComissaoEdit" priority="1" />
+      <Item value="Validar`0" priority="1" />
+      <Item value="validacao" priority="3" />
+      <Item value="btnEditar" priority="0" />
+      <Item value="str" priority="2" />
+      <Item value="admin" priority="1" />
+      <Item value="tipo" priority="3" />
+      <Item value="metaComissao" priority="0" />
+      <Item value="da" priority="0" />
+      <Item value="DTO" priority="15" />
+      <Item value="nome_caminhao" priority="2" />
+      <Item value="ddlTiposEdit" priority="1" />
+      <Item value="meta_comissao" priority="0" />
+      <Item value="con" priority="1" />
+      <Item value="cmd" priority="0" />
+      <Item value="UpdateCommand" priority="0" />
+      <Item value="id_usuario" priority="8" />
+      <Item value="ok" priority="4" />
+      <Item value="DeleteCommand" priority="0" />
+      <Item value="void" priority="6" />
+      <Item value="Buscar`0" priority="3" />
+      <Item value="numero" priority="4" />
+      <Item value="lojaDAL`0" priority="0" />
+      <Item value="txtNumeroEdit" priority="3" />
+      <Item value="idLoja" priority="3" />
+      <Item value="loja" priority="2" />
+      <Item value="object" priority="1" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="loja`0" priority="0" />
+      <Item value="nome_motorista" priority="0" />
+      <Item value="usuBusca" priority="1" />
+      <Item value="txtNomeCaminhao" priority="0" />
+      <Item value="txtNumero" priority="0" />
+      <Item value="txtNome" priority="0" />
+      <Item value="parametro_geral`0" priority="8" />
+      <Item value="salario_pao_acucar" priority="3" />
+      <Item value="valor_hora_extra_pao_acucar" priority="2" />
+      <Item value="inss_pao_acucar" priority="3" />
+      <Item value="txtValorDiesel" priority="2" />
+      <Item value="parametro" priority="0" />
+      <Item value="txtSalarioPaoAcucar" priority="1" />
+      <Item value="txtValorHoraExtraPaoAcucar" priority="1" />
+      <Item value="txtInssPaoAcucar" priority="1" />
+      <Item value="parametros_gerais`0" priority="2" />
+      <Item value="txtValorRefeicaoEdit" priority="0" />
+      <Item value="txtSalarioPaoAcucarEdit" priority="1" />
+      <Item value="txtValorHoraExtraPaoAcucarEdit" priority="1" />
+      <Item value="txtValorDiariaPaoAcucarEdit" priority="1" />
+      <Item value="txtInssPaoAcucarEdit" priority="1" />
+      <Item value="txtInssPedreiraEdit" priority="0" />
+      <Item value="txtValorRefeicao" priority="1" />
+      <Item value="txtValorDiariaPaoAcucar" priority="0" />
+      <Item value="txtInssPedreira" priority="0" />
+      <Item value="parametros_geraisDAL`0" priority="4" />
+      <Item value="valor_diesel" priority="0" />
+      <Item value="txtValorDieselEdit" priority="0" />
+      <Item value="salario_pedreira" priority="1" />
+      <Item value="txtSalarioPedreiraEdit" priority="0" />
+      <Item value="_conexaoMySQL" priority="0" />
+      <Item value="public" priority="12" />
+      <Item value="DateTime`0" priority="14" />
+      <Item value="get" priority="0" />
+      <Item value="set" priority="0" />
+      <Item value="viagem" priority="22" />
+      <Item value="id_viagem_pedreira" priority="0" />
+      <Item value="data" priority="2" />
+      <Item value="destino" priority="1" />
+      <Item value="numero_nota_fiscal" priority="1" />
+      <Item value="viagens_pedreiraDAL`0" priority="3" />
+      <Item value="txtData" priority="0" />
+      <Item value="txtDestino" priority="2" />
+      <Item value="txtNumeroNotaFiscal" priority="2" />
+      <Item value="txtPeso" priority="2" />
+      <Item value="txtValorFrete" priority="2" />
+      <Item value="txtValorICMS" priority="3" />
+      <Item value="txtValorProdutos" priority="4" />
+      <Item value="txtValorNotaFiscal" priority="2" />
+      <Item value="txtQtdDiesel" priority="2" />
+      <Item value="peso" priority="0" />
+      <Item value="valor_frete" priority="4" />
+      <Item value="base_calculo_icms" priority="0" />
+      <Item value="valor_icms" priority="0" />
+      <Item value="valor_produtos" priority="0" />
+      <Item value="qtd_diesel" priority="0" />
+      <Item value="km_abastecimento" priority="0" />
+      <Item value="btnLimpar_Click`0" priority="0" />
+      <Item value="HttpSessionStateBase`0" priority="0" />
+      <Item value="ID" priority="1" />
+      <Item value="km_final" priority="1" />
+      <Item value="txtDataPedreira" priority="0" />
+      <Item value="ddlLojas" priority="6" />
+      <Item value="DataBind`0" priority="0" />
+      <Item value="parametros" priority="3" />
+      <Item value="sql" priority="4" />
+      <Item value="switch" priority="2" />
+      <Item value="vwViagens" priority="1" />
+      <Item value="case" priority="4" />
+      <Item value="break" priority="5" />
+      <Item value="ListItem" priority="0" />
+      <Item value="txtKmFinal" priority="5" />
+      <Item value="txtNumeroOrdemColeta" priority="5" />
+      <Item value="long" priority="0" />
+      <Item value="id_loja" priority="4" />
+      <Item value="valor_abastecimento" priority="6" />
+      <Item value="txtValorAbastecimento" priority="1" />
+      <Item value="txtQtdDieselPaoAcucar" priority="4" />
+      <Item value="txtKmAbastecimentoPaoAcucar" priority="3" />
+      <Item value="txtValorFretePaoAcucar" priority="2" />
+      <Item value="rdlViagens" priority="2" />
+      <Item value="false" priority="17" />
+      <Item value="Panel`0" priority="0" />
+      <Item value="pnlValorFretePaoAcucar" priority="1" />
+      <Item value="pnlNumeroOrdemColeta" priority="2" />
+      <Item value="valor_nota_fiscal" priority="0" />
+      <Item value="ddlPeriodo" priority="11" />
+      <Item value="p" priority="2" />
+      <Item value="viagensPaoAcucar" priority="9" />
+      <Item value="v" priority="31" />
+      <Item value="viagensPedreira" priority="3" />
+      <Item value="List" priority="0" />
+      <Item value="IFormatProvider`0" priority="0" />
+      <Item value="usuariosDAL`0" priority="1" />
+      <Item value="tipoPlaca" priority="3" />
+      <Item value="IsAsync" priority="0" />
+      <Item value="viagem_pao_acucar" priority="2" />
+      <Item value="foreach" priority="6" />
+      <Item value="fechamentos_pao_acucar`0" priority="1" />
+      <Item value="fechamentos" priority="0" />
+      <Item value="TextBox`0" priority="5" />
+      <Item value="fechamento_pao_acucar`0" priority="2" />
+      <Item value="pnlFolha" priority="3" />
+      <Item value="txtQtdHorasExtras" priority="3" />
+      <Item value="fechamentoPaoAcucar" priority="4" />
+      <Item value="parametrosGerais" priority="10" />
+      <Item value="qtdHorasExtras" priority="0" />
+      <Item value="qtdDiarias" priority="0" />
+      <Item value="totalFrete" priority="2" />
+      <Item value="excedenteMetaFrete" priority="0" />
+      <Item value="valorHorasExtras" priority="2" />
+      <Item value="valorDiarias" priority="1" />
+      <Item value="comissao" priority="3" />
+      <Item value="lblResultadoFolha" priority="0" />
+      <Item value="resultado" priority="0" />
+      <Item value="qtdViagens" priority="1" />
+      <Item value="vale" priority="3" />
+      <Item value="total1" priority="3" />
+      <Item value="total2" priority="3" />
+      <Item value="CalcularFolha`0" priority="2" />
+      <Item value="comissao7" priority="2" />
+      <Item value="refeicao" priority="3" />
+      <Item value="comissao5" priority="1" />
+      <Item value="pnlDadosResultadoPaoAcucar" priority="1" />
+      <Item value="debito_credito`0" priority="4" />
+      <Item value="id_fechamento_pao_acucar" priority="0" />
+      <Item value="id_debito_credito" priority="1" />
+      <Item value="descricao" priority="5" />
+      <Item value="periodo" priority="4" />
+      <Item value="debitos_creditosDAL`0" priority="0" />
+      <Item value="txtDescricaoDebito" priority="0" />
+      <Item value="debitosCreditos" priority="0" />
+      <Item value="dc" priority="3" />
+      <Item value="debitos" priority="6" />
+      <Item value="creditos" priority="7" />
+      <Item value="fechamento" priority="3" />
+      <Item value="qtd_horas_extras" priority="0" />
+      <Item value="grdDebitosCreditos" priority="3" />
+      <Item value="DetailsView`0" priority="0" />
+      <Item value="BindDebitosCreditos`0" priority="2" />
+      <Item value="valor" priority="2" />
+      <Item value="Button`0" priority="0" />
+      <Item value="Control" priority="0" />
+      <Item value="DataTextField" priority="0" />
+      <Item value="DataValueField" priority="0" />
+      <Item value="DBNull`0" priority="1" />
+      <Item value="debito_credito" priority="0" />
+      <Item value="id" priority="1" />
+      <Item value="e" priority="7" />
+      <Item value="lblTipo" priority="1" />
+      <Item value="c" priority="7" />
+      <Item value="grdViagensPaoAcucar" priority="3" />
+      <Item value="grdViagensPedreira" priority="0" />
+      <Item value="u" priority="12" />
+      <Item value="dr" priority="0" />
+      <Item value="sender" priority="0" />
+      <Item value="lnkRemove" priority="1" />
+      <Item value="id_viagem_pao_acucar" priority="4" />
+      <Item value="usu" priority="2" />
+      <Item value="per" priority="1" />
+      <Item value="ddlUsuarios_SelectedIndexChanged`0" priority="0" />
+      <Item value="viagens_pao_acucarDAL`0" priority="2" />
+      <Item value="txtDataPaoAcucar" priority="5" />
+      <Item value="txtValorFretePedreira" priority="0" />
+      <Item value="txtBaseCalculoICMS" priority="0" />
+      <Item value="txtQtdDieselPedreira" priority="2" />
+      <Item value="txtKmAbastecimentoPedreira" priority="1" />
+      <Item value="txtValorAbastecimentoPaoAcucar" priority="4" />
+      <Item value="idusu" priority="0" />
+      <Item value="qtd_viagens" priority="0" />
+      <Item value="dia" priority="0" />
+      <Item value="validarDebitoCredito`0" priority="0" />
+      <Item value="txtValor" priority="0" />
+      <Item value="lblMotorista" priority="0" />
+      <Item value="lblSalarioPaoAcucar" priority="0" />
+      <Item value="lblHorasExtrasPaoAcucar" priority="0" />
+      <Item value="lblDiariasPaoAcucar" priority="0" />
+      <Item value="lblComissao10PaoAcucar" priority="0" />
+      <Item value="lblOutrosCreditosPaoAcucar" priority="0" />
+      <Item value="lblTotal1PaoAcucar" priority="0" />
+      <Item value="lblValePaoAcucar" priority="0" />
+      <Item value="lblINSSPaoAcucar" priority="0" />
+      <Item value="lblOutrosDebitosPaoAcucar" priority="0" />
+      <Item value="lblTotal2PaoAcucar" priority="0" />
+      <Item value="lblTotalGeralPaoAcucar" priority="0" />
+      <Item value="pnlFolhaPaoAcucar" priority="1" />
+      <Item value="pnlFolhaPedreira" priority="1" />
+      <Item value="lblSalarioPedreira" priority="0" />
+      <Item value="lblComissaoPedreira" priority="0" />
+      <Item value="lblRefeicaoPedreira" priority="0" />
+      <Item value="lblComissao5Pedreira" priority="0" />
+      <Item value="lblOutrosCreditosPedreira" priority="0" />
+      <Item value="lblTotal1Pedreira" priority="0" />
+      <Item value="lblValePedreira" priority="0" />
+      <Item value="lblOutrosDebitosPedreira" priority="0" />
+      <Item value="lblTotal2Pedreira" priority="0" />
+      <Item value="lblTotalGeralPedreira" priority="0" />
+      <Item value="txtValorHoraExtra" priority="2" />
+      <Item value="valor_vale" priority="1" />
+      <Item value="txtValorVale" priority="1" />
+      <Item value="valorHorasExtra" priority="0" />
+      <Item value="valorDiaria" priority="0" />
+      <Item value="salarioPaoAcucar" priority="1" />
+      <Item value="valorVale" priority="3" />
+      <Item value="INSSPaoAcucar" priority="1" />
+      <Item value="center" priority="0" />
+      <Item value="valor_refeicao" priority="0" />
+      <Item value="inss_pedreira" priority="0" />
+      <Item value="fechamento_pedreira`0" priority="4" />
+      <Item value="pnlFechamentoPedreira" priority="0" />
+      <Item value="valorRefeicao" priority="0" />
+      <Item value="salarioPedreira" priority="1" />
+      <Item value="INSSPedreira" priority="1" />
+      <Item value="servico`0" priority="11" />
+      <Item value="servicos" priority="3" />
+      <Item value="id_servico" priority="1" />
+      <Item value="servicos`0" priority="0" />
+      <Item value="servicosDAL`0" priority="4" />
+      <Item value="grdServicos" priority="0" />
+      <Item value="idServico" priority="1" />
+      <Item value="servico" priority="5" />
+      <Item value="txtDescricaoEdit" priority="4" />
+      <Item value="txtValorEdit" priority="3" />
+      <Item value="txtKmEdit" priority="3" />
+      <Item value="txtDataEdit" priority="3" />
+      <Item value="km" priority="0" />
+      <Item value="ddlUsuariosEdit" priority="4" />
+      <Item value="PopulaUsuarios`0" priority="0" />
+      <Item value="chkOleo" priority="1" />
+      <Item value="origem" priority="2" />
+      <Item value="noite_domingo_feriado" priority="3" />
+      <Item value="chkNoiteDomingoFeriado" priority="3" />
+      <Item value="txtTrocaOleoEdit" priority="1" />
+      <Item value="troca_oleo" priority="0" />
+      <Item value="lblTrocaOleo" priority="1" />
+      <Item value="trocaOleo" priority="1" />
+      <Item value="trocaIdeal" priority="1" />
+      <Item value="ultimaTroca" priority="2" />
+      <Item value="out" priority="3" />
+      <Item value="troca" priority="0" />
+      <Item value="trocas" priority="1" />
+      <Item value="viagens" priority="0" />
+      <Item value="lblRendimento" priority="2" />
+      <Item value="ultimaViagem" priority="3" />
+      <Item value="txtKmAbastecimento" priority="2" />
+      <Item value="usuarios`0" priority="0" />
+      <Item value="viagem_pedreira" priority="1" />
+      <Item value="viagem_pao_acucar`0" priority="1" />
+      <Item value="tipo_viagem" priority="0" />
+      <Item value="parGerais" priority="0" />
+      <Item value="fechamento_viagensDAL`0" priority="0" />
+      <Item value="fechamento_viagens" priority="0" />
+      <Item value="salPaoAcucar" priority="0" />
+      <Item value="salPedreira" priority="0" />
+      <Item value="fechamento_servicosDAL`0" priority="0" />
+      <Item value="fechamento_servicos" priority="0" />
+      <Item value="s" priority="0" />
+      <Item value="fechamento`0" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="fechamentoDTO`0" priority="0" />
+      <Item value="fechamentoDTO" priority="2" />
+      <Item value="valor_liquido" priority="1" />
+      <Item value="valor_bruto" priority="0" />
+      <Item value="composicao_valor_liquido" priority="1" />
+      <Item value="Decimal`0" priority="0" />
+      <Item value="decTxtKmAbastecimento" priority="1" />
+      <Item value="decTxtQtdDiesel" priority="1" />
+      <Item value="txtQtdLitros" priority="0" />
+      <Item value="lblRendimentoPaoAcucar" priority="0" />
+      <Item value="lblRendimentoPedreira" priority="1" />
+      <Item value="txt" priority="0" />
+      <Item value="private" priority="0" />
+      <Item value="soma_qtd_viagens" priority="1" />
+      <Item value="soma_qtd_diesel" priority="0" />
+      <Item value="primeiro_km_final" priority="1" />
+      <Item value="dif_km_final" priority="1" />
+      <Item value="lblTitulo" priority="0" />
+      <Item value="textoTitulo" priority="0" />
+      <Item value="liServicos" priority="0" />
+      <Item value="liFolha" priority="0" />
+      <Item value="liFechamento" priority="0" />
+      <Item value="liPlacas" priority="0" />
+      <Item value="liLojas" priority="0" />
+      <Item value="liParametros" priority="0" />
+      <Item value="cargas_pao_acucarDAL`0" priority="2" />
+      <Item value="id_carga_pao_acucar" priority="1" />
+      <Item value="BoundField`0" priority="2" />
+      <Item value="BindCargas`0" priority="2" />
+      <Item value="grdCargas" priority="2" />
+      <Item value="carga_pao_acucar`0" priority="0" />
+      <Item value="DataRow" priority="0" />
+      <Item value="numero_ordem_coleta" priority="2" />
+      <Item value="DataRow`0" priority="2" />
+      <Item value="Length" priority="0" />
+      <Item value="lojasDAL`0" priority="0" />
+      <Item value="transf" priority="0" />
+      <Item value="DataTable" priority="0" />
+      <Item value="id_carga" priority="2" />
+      <Item value="inserir" priority="0" />
+      <Item value="ZerarCargas`0" priority="1" />
+      <Item value="r" priority="6" />
+      <Item value="carga_pao_acucar" priority="1" />
+      <Item value="carga" priority="0" />
+      <Item value="soma_valor_frete" priority="0" />
+      <Item value="cargas" priority="0" />
+      <Item value="idViagem" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="KmAbastecimento" priority="0" />
+      <Item value="rendimento" priority="0" />
+      <Item value="CultureInfo`0" priority="0" />
+      <Item value="salario" priority="4" />
+      <Item value="domingo" priority="1" />
+      <Item value="chkDomingoPaoAcucar" priority="3" />
+      <Item value="vpao" priority="0" />
+      <Item value="lojas_viagem_pao_acucarDAL`0" priority="2" />
+      <Item value="loja_viagem_pao_acucar" priority="2" />
+      <Item value="viagemPaoAcucar" priority="4" />
+      <Item value="lojas" priority="0" />
+      <Item value="comissao70reais" priority="0" />
+      <Item value="domingo70reais" priority="3" />
+      <Item value="lblDomingosPaoAcucar" priority="0" />
+      <Item value="domingo_feriado" priority="1" />
+      <Item value="chkDomingoFeriadoPedreira" priority="3" />
+      <Item value="vp" priority="0" />
+      <Item value="dataViagemPaoAucar" priority="0" />
+      <Item value="converteu" priority="0" />
+      <Item value="identificacao" priority="2" />
+      <Item value="Drawing" priority="0" />
+      <Item value="ColorTranslator`0" priority="0" />
+      <Item value="ColorConverter`0" priority="0" />
+      <Item value="SystemColors`0" priority="0" />
+      <Item value="Color`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="DataSource" priority="6" />
+      <Item value="DataBind`0" priority="3" />
+      <Item value="DataTextField" priority="0" />
+      <Item value="SelectedValue" priority="22" />
+      <Item value="SelectedIndex" priority="2" />
+      <Item value="Items" priority="4" />
+      <Item value="SelectedItem" priority="7" />
+      <Item value="Text" priority="3" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.usuarioDAL">
+      <Item value="listarUsuarios`0" priority="0" />
+      <Item value="Listar`0" priority="2" />
+      <Item value="RecuperarPorID`0" priority="4" />
+      <Item value="RecuperarPorPlacaSenha`0" priority="0" />
+      <Item value="RecuperarParaCRUD`0" priority="0" />
+      <Item value="Adicionar`0" priority="0" />
+      <Item value="Atualizar`0" priority="0" />
+      <Item value="Deletar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="AsEnumerable`0" priority="1" />
+      <Item value="Rows" priority="12" />
+      <Item value="NewRow`0" priority="0" />
+      <Item value="Columns" priority="0" />
+      <Item value="AcceptChanges`0" priority="0" />
+      <Item value="Select`0" priority="0" />
+      <Item value="DefaultView" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.EnumerableRowCollection`1">
+      <Item value="Select`2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.usuario">
+      <Item value="id_usuario" priority="16" />
+      <Item value="admin" priority="5" />
+      <Item value="nome_motorista" priority="5" />
+      <Item value="placa" priority="6" />
+      <Item value="senha" priority="2" />
+      <Item value="tipo" priority="11" />
+      <Item value="meta_comissao" priority="3" />
+      <Item value="nome_caminhao" priority="1" />
+      <Item value="troca_oleo" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean`0" priority="1" />
+      <Item value="ToDecimal`0" priority="9" />
+      <Item value="ChangeType`0" priority="0" />
+      <Item value="ToInt32`0" priority="40" />
+      <Item value="ToDateTime`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Write`0" priority="8" />
+      <Item value="Redirect`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="85" />
+      <Item value="Visible" priority="3" />
+      <Item value="Attributes" priority="0" />
+      <Item value="Enabled" priority="6" />
+      <Item value="Focus`0" priority="2" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Security.FormsAuthentication">
+      <Item value="Authenticate`0" priority="0" />
+      <Item value="FormsCookieName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="1" />
+      <Item value="IsAuthenticated" priority="0" />
+      <Item value="AuthenticationType" priority="0" />
+      <Item value="ToCustomIdentity`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Newtonsoft.Json.JsonConvert">
+      <Item value="DeserializeObject`0" priority="0" />
+      <Item value="SerializeObject`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.Util.CustomIdentity">
+      <Item value="License" priority="0" />
+      <Item value="IsAuthenticated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.Util.FormsAuthenticationService">
+      <Item value="SignIn`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Split`0" priority="0" />
+      <Item value="Replace`0" priority="1" />
+      <Item value="ToStringSegura`0" priority="10" />
+      <Item value="ToDecimalMySql`0" priority="0" />
+      <Item value="ToLower`0" priority="2" />
+      <Item value="Length" priority="0" />
+      <Item value="Contains`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="5" />
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="29" />
+      <Item value="Visible" priority="4" />
+      <Item value="Attributes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Menu">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.MenuItemCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="IsPostBack" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.MultiView">
+      <Item value="ActiveViewIndex" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="3" />
+      <Item value="DataBind`0" priority="3" />
+      <Item value="Rows" priority="2" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="3" />
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ClientScriptManager">
+      <Item value="RegisterClientScriptBlock`0" priority="0" />
+      <Item value="RegisterStartupScript`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.WebForm1">
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="50" />
+      <Item value="ToDecimalMySql`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="14" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="15" />
+      <Item value="Empty" priority="0" />
+      <Item value="Format`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Text" priority="0" />
+      <Item value="Click" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlDataAdapter">
+      <Item value="InsertCommand" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="Parse`0" priority="1" />
+      <Item value="TryParse`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlConnection">
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MySql.Data.MySqlClient.MySqlCommand">
+      <Item value="LastInsertedId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.loja">
+      <Item value="numero" priority="2" />
+      <Item value="nome" priority="1" />
+      <Item value="identificacao" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="HasValue" priority="1" />
+      <Item value="Value" priority="3" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.parametro_geral">
+      <Item value="valor_diesel" priority="3" />
+      <Item value="salario_pao_acucar" priority="5" />
+      <Item value="inss_pao_acucar" priority="6" />
+      <Item value="inss_pedreira" priority="2" />
+      <Item value="valor_refeicao" priority="1" />
+      <Item value="valor_vale" priority="1" />
+      <Item value="valor_hora_extra_pao_acucar" priority="2" />
+      <Item value="valor_diaria_pao_acucar" priority="2" />
+      <Item value="salario_pedreira" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="5" />
+      <Item value="MinValue" priority="0" />
+      <Item value="TryParse`0" priority="1" />
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.viagem_pedreira">
+      <Item value="destino" priority="2" />
+      <Item value="numero_nota_fiscal" priority="2" />
+      <Item value="valor_frete" priority="1" />
+      <Item value="base_calculo_icms" priority="2" />
+      <Item value="valor_icms" priority="2" />
+      <Item value="valor_produtos" priority="4" />
+      <Item value="valor_nota_fical" priority="1" />
+      <Item value="qtd_diesel" priority="2" />
+      <Item value="km_abastecimento" priority="2" />
+      <Item value="id_viagem_pedreira" priority="2" />
+      <Item value="data" priority="3" />
+      <Item value="peso" priority="1" />
+      <Item value="id_usuario" priority="1" />
+      <Item value="valor_nota_fiscal" priority="0" />
+      <Item value="origem" priority="2" />
+      <Item value="noite_domingo_feriado" priority="2" />
+      <Item value="domingo_feriado" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.viagens_pedreiraDAL">
+      <Item value="RecuperarPorID`0" priority="0" />
+      <Item value="Listar`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Date" priority="6" />
+      <Item value="ToString`0" priority="8" />
+      <Item value="Month" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.viagem_pao_acucar">
+      <Item value="id_loja" priority="2" />
+      <Item value="km_final" priority="3" />
+      <Item value="qtd_diesel" priority="4" />
+      <Item value="km_abastecimento" priority="5" />
+      <Item value="valor_frete" priority="2" />
+      <Item value="numero_ordem_coleta" priority="2" />
+      <Item value="valor_abastecimento" priority="1" />
+      <Item value="id_usuario" priority="2" />
+      <Item value="data" priority="4" />
+      <Item value="km_abastecimento_" priority="0" />
+      <Item value="id_viagem_pao_acucar" priority="2" />
+      <Item value="domingo" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.lojasDAL">
+      <Item value="Listar`0" priority="0" />
+      <Item value="RecuperarPorID`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RadioButtonList">
+      <Item value="SelectedIndex" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Text" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.parametros_geraisDAL">
+      <Item value="RecuperarPorID`0" priority="2" />
+      <Item value="Listar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Where`1" priority="9" />
+      <Item value="Select`2" priority="2" />
+      <Item value="Distinct`1" priority="2" />
+      <Item value="OrderBy`2" priority="7" />
+      <Item value="Union`1" priority="1" />
+      <Item value="Concat`1" priority="0" />
+      <Item value="SingleOrDefault`1" priority="1" />
+      <Item value="Sum`1" priority="9" />
+      <Item value="Count`1" priority="7" />
+      <Item value="First`1" priority="1" />
+      <Item value="Max`2" priority="0" />
+      <Item value="Single`1" priority="0" />
+      <Item value="GroupBy`4" priority="0" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="Join`4" priority="1" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="IsNull`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="Distinct`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Take`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.usuariosDAL">
+      <Item value="Listar`0" priority="2" />
+      <Item value="RecuperarPorID`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.fechamento_pao_acucar">
+      <Item value="qtd_horas_extras" priority="4" />
+      <Item value="qtd_diarias" priority="2" />
+      <Item value="valor_hora_extra_pao_acucar" priority="2" />
+      <Item value="salario_pao_acucar" priority="1" />
+      <Item value="valor_vale" priority="1" />
+      <Item value="inss_pao_acucar" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.debito_credito">
+      <Item value="descricao" priority="2" />
+      <Item value="valor" priority="5" />
+      <Item value="id_debito_credito" priority="0" />
+      <Item value="periodo" priority="1" />
+      <Item value="tipo" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.fechamentos_pao_acucarDAL">
+      <Item value="Deletar`0" priority="0" />
+      <Item value="Adicionar`0" priority="0" />
+      <Item value="Atualizar`0" priority="0" />
+      <Item value="Listar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.debitos_creditosDAL">
+      <Item value="Adicionar`0" priority="0" />
+      <Item value="Atualizar`0" priority="0" />
+      <Item value="Deletar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowEventArgs">
+      <Item value="Row" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="Cells" priority="1" />
+      <Item value="RowIndex" priority="0" />
+      <Item value="BackColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Controls" priority="2" />
+      <Item value="Visible" priority="1" />
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowCollection">
+      <Item value="AsQueryable`0" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinkButton">
+      <Item value="CommandName" priority="0" />
+      <Item value="CommandArgument" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.viagens_pao_acucarDAL">
+      <Item value="Deletar`0" priority="0" />
+      <Item value="Atualizar`0" priority="0" />
+      <Item value="Listar`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DBNull">
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HyperLink">
+      <Item value="NavigateUrl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.viagem_pedreira_folha_pgto">
+      <Item value="qtd_viagens" priority="0" />
+      <Item value="total_frete" priority="0" />
+      <Item value="noite_domingo_feriado" priority="0" />
+      <Item value="domingo_feriado" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.fechamento_pedreira">
+      <Item value="valor_refeicao" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.servico">
+      <Item value="id_servico" priority="1" />
+      <Item value="descricao" priority="1" />
+      <Item value="tipo" priority="0" />
+      <Item value="id_usuario" priority="0" />
+      <Item value="data" priority="1" />
+      <Item value="valor" priority="0" />
+      <Item value="km" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.servicosDAL">
+      <Item value="Listar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.fechamento_servicos">
+      <Item value="periodo" priority="1" />
+      <Item value="soma_valor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.fechamento_viagensDAL">
+      <Item value="Listar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.fechamento_viagens">
+      <Item value="id_usuario" priority="1" />
+      <Item value="periodo" priority="2" />
+      <Item value="soma_frete" priority="6" />
+      <Item value="soma_abastecimento" priority="1" />
+      <Item value="placa" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.fechamento_servicosDAL">
+      <Item value="Listar`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.AttributeCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CommandField">
+      <Item value="InsertText" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="ButtonType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.UI.WebControls.DataControlRowType">
+      <Item value="Footer" priority="0" />
+      <Item value="DataRow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TemplateField">
+      <Item value="ItemTemplate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="Visible" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.carga_pao_acucar">
+      <Item value="id_viagem_pao_acucar" priority="1" />
+      <Item value="valor_frete" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.BoundField">
+      <Item value="DataField" priority="0" />
+      <Item value="HeaderText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewUpdateEventArgs">
+      <Item value="RowIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.SessionState.HttpSessionState">
+      <Item value="Remove`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataView">
+      <Item value="Sort" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.cargas_pao_acucarDAL">
+      <Item value="Adicionar`0" priority="0" />
+      <Item value="Listar`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization.CultureInfo">
+      <Item value="InvariantCulture" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Globalization.CultureInfo">
+      <Item value="NumberFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DAL.lojas_viagem_pao_acucarDAL">
+      <Item value="Listar`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Terrapar.DTO.loja_viagem_pao_acucar">
+      <Item value="valor_frete" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.ColorConverter">
+      <Item value="StandardValuesCollection`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="FromArgb`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
