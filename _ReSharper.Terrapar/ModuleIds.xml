@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="919A8D53-C002-418D-BACD-0A31B11202B8" ModuleId="Terrapar" />
+  <Module PersistentId="A7EF8C65-1A0B-4EE4-943F-63D81812F8F7" ModuleId="Terrapar.DTO" />
+  <Module PersistentId="3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC" ModuleId="Terrapar.DAL" />
+  <Module PersistentId="7F055B3D-CA4D-43A2-A9A8-BAC9A0E97A77" ModuleId="Terrapar.Util" />
+</Modules>

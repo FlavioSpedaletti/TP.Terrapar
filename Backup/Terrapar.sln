@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terrapar", "Terrapar\Terrapar.csproj", "{919A8D53-C002-418D-BACD-0A31B11202B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terrapar.DTO", "Terrapar.DTO\Terrapar.DTO.csproj", "{A7EF8C65-1A0B-4EE4-943F-63D81812F8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terrapar.DAL", "Terrapar.DAL\Terrapar.DAL.csproj", "{3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terrapar.Util", "Terrapar.Util\Terrapar.Util.csproj", "{7F055B3D-CA4D-43A2-A9A8-BAC9A0E97A77}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{919A8D53-C002-418D-BACD-0A31B11202B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919A8D53-C002-418D-BACD-0A31B11202B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919A8D53-C002-418D-BACD-0A31B11202B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919A8D53-C002-418D-BACD-0A31B11202B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EF8C65-1A0B-4EE4-943F-63D81812F8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EF8C65-1A0B-4EE4-943F-63D81812F8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EF8C65-1A0B-4EE4-943F-63D81812F8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EF8C65-1A0B-4EE4-943F-63D81812F8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9FBCDA-B38A-4BF1-AB15-5F1FFB363BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F055B3D-CA4D-43A2-A9A8-BAC9A0E97A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F055B3D-CA4D-43A2-A9A8-BAC9A0E97A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F055B3D-CA4D-43A2-A9A8-BAC9A0E97A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F055B3D-CA4D-43A2-A9A8-BAC9A0E97A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

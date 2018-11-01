@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Terrapar.SiteMaster" %>
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head runat="server">
+    <title>Terrapar</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="Scripts/meiomask.min.js"></script>
+    <script src="Scripts/jquery.limitkeypress.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <div class="page">
+            <div class="header">
+                <div class="title">
+                    <h1>Terrapar</h1>
+                </div>
+            
+                <div class="loginDisplay">
+                    Olá <asp:Label CssClass="bold" runat="server" ID="lblUsuario"></asp:Label>!
+                    <asp:LinkButton runat="server" id="lnkSair" Text="[ Sair ]" OnClick="lnkSair_Click"></asp:LinkButton>
+                </div>
+                <div class="clear hideSkiplink">
+                    <div class="menu" id="menu" style="float: left;">
+	                    <ul class="level1 static" style="position: relative; width: auto; float: left;">
+		                    <li class="static" style="position: relative; float: left;"><a class="level1 static" href="default.aspx">Registrar</a></li>
+                            <li class="static" style="position: relative; float: left;"><a class="level1 static" href="viagens.aspx">Consultar</a></li>
+                            <li class="static" runat="server" id="liServicos" visible="false" style="position: relative; float: left;"><a class="level1 static" href="servicos.aspx">Serviços</a></li>
+                            <li class="static" runat="server" id="liFolha" visible="false" style="position: relative; float: left;"><a class="level1 static" href="folha-pagamento.aspx">Folha pgto</a></li>
+                            <li class="static" runat="server" id="liFechamento" visible="false" style="position: relative; float: left;"><a class="level1 static" href="fechamento.aspx">Fechamento</a></li>
+                            <li class="static" runat="server" id="liPlacas" visible="false" style="position: relative; float: left;"><a class="level1 static" href="usuarios.aspx">Placas</a></li>
+                            <li class="static" runat="server" id="liLojas" visible="false" style="position: relative; float: left;"><a class="level1 static" href="lojas.aspx">Lojas</a></li>
+                            <li class="static" runat="server" id="liParametros" visible="false" style="position: relative; float: left;"><a class="level1 static" href="parametros-gerais.aspx">Parâmetros</a></li>
+	                    </ul>
+                    </div>
+                    <div style="clear: left;"></div>
+                </div>
+            </div>
+            <div class="main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="footer">Terrapar - Todos os direitos reservados</div>
+    </form>
+
+    <script type="text/javascript">
+        //estou usando meiomask para máscaras de data e int, e limitkeypress para máscara de decimal
+
+        var regDecimal = /^\d*(\,\d?\d?)?$/;
+
+        $.mask.masks = $.extend($.mask.masks, {
+            placa: { mask: 'ZZZ9999' }
+        });
+
+        $(document).ready(function () {
+            $('input:text').setMask({ autoTab: false });
+
+            //teclado numérico
+            //substitui "," por "." nos navegadores que não interpretam "," como casa decimal no input type=number
+            $('input[type=number][step]').on('keydown', function (evt) {
+                if (evt.which == 188) {
+                    $(this).val($(this).val() + ".");
+                    evt.preventDefault();
+                }
+            });
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="BodyEndContent" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
