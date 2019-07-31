@@ -57,7 +57,7 @@
                     </asp:BoundField>
                     <asp:TemplateField>
                         <ItemTemplate>
-                            <a href="parametros-gerais.aspx?id=<%#Eval("id_parametro")%>">Editar</a>
+                            <a href="parametros-gerais.aspx?id=<%#Eval("id_parametro_geral")%>">Editar</a>
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>

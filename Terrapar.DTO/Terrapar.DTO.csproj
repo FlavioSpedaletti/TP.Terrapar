@@ -20,6 +20,12 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,7 +45,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -66,6 +79,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contexto.cs" />
     <Compile Include="debito_credito.cs" />
     <Compile Include="fechamento_pao_acucar.cs" />
     <Compile Include="fechamento_pedreira.cs" />
@@ -73,6 +87,11 @@
     <Compile Include="fechamento_viagens.cs" />
     <Compile Include="loja.cs" />
     <Compile Include="loja_viagem_pao_acucar.cs" />
+    <Compile Include="Migrations\201907311730266_inicial.cs" />
+    <Compile Include="Migrations\201907311730266_inicial.Designer.cs">
+      <DependentUpon>201907311730266_inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="parametro_geral.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="servico.cs" />
@@ -81,6 +100,14 @@
     <Compile Include="viagem_pao_acucar_destacada.cs" />
     <Compile Include="viagem_pedreira.cs" />
     <Compile Include="viagem_pedreira_destacada.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201907311730266_inicial.resx">
+      <DependentUpon>201907311730266_inicial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -50,7 +50,7 @@ namespace Terrapar.DAL
         public int Deletar(parametro_geral DTO)
         {
             var sql = "DELETE FROM parametros_gerais" +
-                      " WHERE id_parametro = " + DTO.id_parametro;
+                      " WHERE id_parametro_geral = " + DTO.id_parametro_geral;
 
             try
             {
@@ -79,7 +79,7 @@ namespace Terrapar.DAL
                       ", valor_diaria_pao_acucar = " + DTO.valor_diaria_pao_acucar.ToDecimalMySql() + ", " +
                       "inss_pao_acucar = " + DTO.inss_pao_acucar.ToDecimalMySql() + ", salario_pedreira = " +
                       DTO.salario_pedreira.ToDecimalMySql() + ", inss_pedreira = " + DTO.inss_pedreira.ToDecimalMySql();
-                      //" WHERE id_parametro = (select max(id_parametro) from parametros_gerais)";
+                      //" WHERE id_parametro_geral = (select max(id_parametro) from parametros_gerais)";
 
             try
             {
@@ -122,7 +122,7 @@ namespace Terrapar.DAL
                     {
                         parametros_gerais.Add(new parametro_geral()
                         {
-                            id_parametro = Convert.ToInt32(dr["id_parametro"].ToString()),
+                            id_parametro_geral = Convert.ToInt32(dr["id_parametro_geral"].ToString()),
                             valor_refeicao = Convert.ToDecimal(dr["valor_refeicao"].ToString()),
                             valor_vale = Convert.ToDecimal(dr["valor_vale"].ToString()),
                             salario_pao_acucar = Convert.ToDecimal(dr["salario_pao_acucar"].ToString()),
@@ -144,7 +144,7 @@ namespace Terrapar.DAL
 
         public parametro_geral RecuperarPorID(int id)
         {
-            var sql = "SELECT * FROM parametros_gerais WHERE id_parametro = " + id;
+            var sql = "SELECT * FROM parametros_gerais WHERE id_parametro_geral = " + id;
 
             try
             {
@@ -160,7 +160,7 @@ namespace Terrapar.DAL
                     var dr = dt.Rows[0];
                     return new parametro_geral()
                     {
-                        id_parametro = Convert.ToInt32(dr["id_parametro"].ToString()),
+                        id_parametro_geral = Convert.ToInt32(dr["id_parametro_geral"].ToString()),
                         valor_refeicao = Convert.ToDecimal(dr["valor_refeicao"].ToString()),
                         valor_vale = Convert.ToDecimal(dr["valor_vale"].ToString()),
                         salario_pao_acucar = Convert.ToDecimal(dr["salario_pao_acucar"].ToString()),

@@ -149,8 +149,8 @@ namespace Terrapar.DAL
                             qtd_diesel = Convert.ToDecimal(dr["qtd_diesel"].ToString()),
                             km_abastecimento = Convert.ToInt32(dr["km_abastecimento"].ToString()),
                             valor_abastecimento = Convert.ToDecimal(dr["valor_abastecimento"].ToString()),
-                            noite = Convert.ToBoolean(dr["noite"].ToString()),
-                            domingo_feriado = Convert.ToBoolean(dr["domingo_feriado"].ToString())
+                            noite = Convert.ToBoolean(dr["noite"].ToString() == "0" ? "false" : "true"),
+                            domingo_feriado = Convert.ToBoolean(dr["domingo_feriado"].ToString() == "0" ? "false" : "true")
                         });
                     }
                     return viagens;
@@ -202,7 +202,7 @@ namespace Terrapar.DAL
                             total_frete = Convert.ToDecimal(dr["total_frete"].ToString()),
                             //periodo = dr["periodo"].ToString()
                             noite = Convert.ToBoolean(dr["noite"].ToString()),
-                            domingo_feriado = Convert.ToBoolean(dr["domingo_feriado"].ToString())
+                            domingo_feriado = Convert.ToBoolean(dr["domingo_feriado"].ToString() == "0" ? "false" : "true")
                         });
                     }
                     return viagens;
@@ -248,8 +248,8 @@ namespace Terrapar.DAL
                         qtd_diesel = Convert.ToDecimal(dr["qtd_diesel"].ToString()),
                         km_abastecimento = Convert.ToInt32(dr["km_abastecimento"].ToString()),
                         valor_abastecimento = Convert.ToDecimal(dr["valor_abastecimento"].ToString()),
-                        noite = Convert.ToBoolean(dr["noite"].ToString()),
-                        domingo_feriado = Convert.ToBoolean(dr["domingo_feriado"].ToString())
+                        noite = Convert.ToBoolean(dr["noite"].ToString() == "0" ? "false" : "true"),
+                        domingo_feriado = Convert.ToBoolean(dr["domingo_feriado"].ToString() == "0" ? "false" : "true")
                     };
                 }
             }

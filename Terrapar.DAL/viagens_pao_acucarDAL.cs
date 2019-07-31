@@ -162,7 +162,7 @@ namespace Terrapar.DAL
                             qtd_diesel = Convert.ToDecimal(dr["qtd_diesel"].ToString()),
                             km_abastecimento = Convert.ToInt32(dr["km_abastecimento"].ToString()),
                             valor_abastecimento = Convert.ToDecimal(dr["valor_abastecimento"].ToString()),
-                            domingo = Convert.ToBoolean(dr["domingo"].ToString())
+                            domingo = Convert.ToBoolean(dr["domingo"].ToString() == "0" ? "false" : "true")
                         });
                     }
                     return viagens;
@@ -200,7 +200,7 @@ namespace Terrapar.DAL
                         qtd_diesel = Convert.ToDecimal(dr["qtd_diesel"].ToString()),
                         km_abastecimento = Convert.ToInt32(dr["km_abastecimento"].ToString()),
                         valor_abastecimento = Convert.ToDecimal(dr["valor_abastecimento"].ToString()),
-                        domingo = Convert.ToBoolean(dr["domingo"].ToString())
+                        domingo = Convert.ToBoolean(dr["domingo"].ToString() == "0" ? "false" : "true")
                     };
                 }
             }

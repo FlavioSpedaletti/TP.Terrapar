@@ -2,7 +2,7 @@
 {
     public class parametro_geral
     {
-        public int id_parametro { get; set; }
+        public int id_parametro_geral { get; set; }
         public decimal valor_refeicao { get; set; }
         public decimal valor_vale { get; set; }
         public decimal salario_pao_acucar { get; set; }

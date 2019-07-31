@@ -101,7 +101,7 @@ namespace Terrapar
             {
                 var ok = new parametros_geraisDAL().Atualizar(new parametro_geral()
                 {
-                    id_parametro = idParametro,
+                    id_parametro_geral = idParametro,
                     valor_refeicao = decimal.Parse(txtValorRefeicaoEdit.Text),
                     valor_vale = decimal.Parse(txtValorValeEdit.Text),
                     salario_pao_acucar = decimal.Parse(txtSalarioPaoAcucarEdit.Text),
