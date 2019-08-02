@@ -4,9 +4,9 @@
 `docker build -t mysql-terrapar-image -f Terrapar.DAL/Dockerfile .`
 
 2. Cria container\
-`docker run -d --rm --name mysql-terrapar-container mysql-terrapar-image\
+`docker run -d --rm --name mysql-terrapar-container mysql-terrapar-image`\
 com volume (para não perder os dados), e com porta (para expor na minha máquina)\
-docker run -d -v //c/projetos/TP.Terrapar/Terrapar.DAL/db/data://var/lib/mysql -p 3306:3306 --rm --name mysql-terrapar-container mysql-terrapar-image`
+`docker run -d -v //c/projetos/TP.Terrapar/Terrapar.DAL/db/data://var/lib/mysql -p 3306:3306 --rm --name mysql-terrapar-container mysql-terrapar-image`
 
 3. Verifica container\
 `docker ps`
