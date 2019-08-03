@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/apeemmj0g4dqp8t0?svg=true)](https://ci.appveyor.com/project/FlavioSpedaletti/tp-terrapar)
+
 # Como rodar esse projeto
 
 1. Cria imagem MySql (na raíz do projeto)\
