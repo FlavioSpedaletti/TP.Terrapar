@@ -11,7 +11,7 @@ namespace Terrapar
         protected void Page_Init(object sender, EventArgs e)
         {
             //verifica se tem usuário logado
-            if (Context.User.Identity.IsAuthenticatedd && Session["usuario"] != null)
+            if (Context.User.Identity.IsAuthenticated && Session["usuario"] != null)
             {
                 var usuario = ((usuario) Session["usuario"]);
                 lblUsuario.Text = string.Format("{0} - {1}", usuario.nome_motorista.PrimeiroNome(), usuario.placa);
