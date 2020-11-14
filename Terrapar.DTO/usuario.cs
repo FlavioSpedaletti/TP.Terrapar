@@ -1,5 +1,8 @@
-﻿namespace Terrapar.DTO
+﻿using System;
+
+namespace Terrapar.DTO
 {
+    [Serializable()]
     public class usuario
     {
         public int id_usuario { get; set; }
